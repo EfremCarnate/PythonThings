@@ -1,0 +1,29 @@
+system = Gallium dimer (Ga-Ga)
+NCORE = 20
+ALGO = Fast
+
+GGA = PE
+GGA_COMPAT = .FALSE.
+PREC = Normal
+ENCUT = 163.268 
+
+NSW = 0  
+POTIM=0.2
+IBRION=2
+
+ISYM = 0      
+ISMEAR = 1    
+SIGMA = 0.05  
+MAXMIX = 50
+EDIFF = 1E-6 
+ISIF = 2
+
+LWAVE=.T.
+LCHARG=.T.
+ISTART=1
+
+NPAR = 20
+LPLANE = .FALSE.
+NSIM = 1
+LREAL = Auto
+
