@@ -1,11 +1,11 @@
 system = Gallium dimer (Ga-Ga)
-NCORE = 20
+NCORE = 4
 ALGO = Fast
 
 GGA = PE
 GGA_COMPAT = .FALSE.
 PREC = Normal
-ENCUT = 163.268 
+ENCUT = 400 
 
 NSW = 0  
 POTIM=0.2
