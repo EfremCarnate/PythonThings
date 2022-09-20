@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import scipy 
 
 from scipy.integrate import solve_ivp 
+from scipy.integrate import odeint 
 
 F = lambda t, s: np.cos(t) + np.sin(t) 
 e = 2 * np.pi
